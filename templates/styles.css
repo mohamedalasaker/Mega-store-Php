@@ -1,0 +1,50 @@
+.send-contact-form,.send-register-form{
+    margin-top: 20px;
+    min-width: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    position: relative;
+    
+}
+
+#footer{
+    min-width: 100%;
+    max-height: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-top: 100px;
+   
+}
+
+#footer p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* I hope this was helpful! */
+/* Follow me on Twitter 🐤 @sleumasm to see what I'm up to. */
+/* Also check out my other project I'm working on - Ceev.io. A pretty cool online resume creator 📃. */
+
+
+/* Your animation code is below! 👇👇👇 */
+
+
+@keyframes yourAnimation{
+    0%{
+        }
+    100%{
+        transform: rotate(xx) translateX(2000px);
+        }
+}
+
+.test{
+    position: absolute;
+    animation: yourAnimation 6s infinite 0s linear;
+}
